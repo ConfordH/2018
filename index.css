@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color:  rgb(3, 3, 39);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.nav{
+  background-color: rgb(2, 2, 12);
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo{
+  color: cornflowerblue;
+  display: flex;
+}
+.logo-img{
+ padding: 10px;
+}
+.right-side{
+  color: white;
+}
+
+.main{
+  color: white;
+  height: 100%;
+  background-color: url(./image/img2.png);
+}
+.main >ul{
+  max-width: 400px;
+}
+.main >ul >li{
+  padding: 10px;
+}
+
+ul >li::marker{
+  font-size: 1,4rem;
+  color:#61DAFB;
+}
